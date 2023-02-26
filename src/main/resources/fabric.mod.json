@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Simple Soups",
-  "description": "A mod to add new soups and recipes for soup to Minecraft.",
+  "description": "A mod to add new soups (plus alternate convenient recipes for existing soups) to Minecraft.",
   "authors": [
     "sink666"
   ],
@@ -19,12 +19,9 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.sink.simplesoups.ExampleMod"
+      "net.sink.simplesoups.SimpleSoups"
     ]
   },
-  "mixins": [
-    "simplesoups.mixins.json"
-  ],
 
   "depends": {
     "fabricloader": ">=0.14.11",
