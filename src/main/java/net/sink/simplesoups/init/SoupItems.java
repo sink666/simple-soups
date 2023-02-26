@@ -12,11 +12,11 @@ import static net.minecraft.item.ItemGroups.*;
 
 public class SoupItems {
     public static final Item WHEAT_GRUEL = new StewItem(new FabricItemSettings()
-            .food(new FoodComponent.Builder().hunger(3).build()).maxCount(1));
+            .food(new FoodComponent.Builder().hunger(6).build()).maxCount(1));
     public static final Item POTATO_SOUP = new StewItem(new StewItem.Settings()
             .food(new FoodComponent.Builder().hunger(6).build()).maxCount(1));
     public static final Item CACTUS_SOUP = new StewItem(new StewItem.Settings()
-            .food(new FoodComponent.Builder().hunger(4).build()).maxCount(1));
+            .food(new FoodComponent.Builder().hunger(6).build()).maxCount(1));
 
     public static void registerItems() {
         Registry.register(Registries.ITEM, new Identifier(SimpleSoups.MOD_ID, "wheat_gruel"), WHEAT_GRUEL);
