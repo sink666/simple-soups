@@ -1,5 +1,7 @@
 {
   "item.simplesoups.potato_soup": "Potato Soup",
   "item.simplesoups.cactus_soup": "Cactus Soup",
-  "item.simplesoups.wheat_gruel": "Wheat Gruel"
+  "item.simplesoups.wheat_gruel": "Wheat Gruel",
+  "advancements.simplesoups.root.title": "Simple Soups",
+  "advancements.simplesoups.root.description": "Hidden advancements of the Simple Soups mod!"
 }
