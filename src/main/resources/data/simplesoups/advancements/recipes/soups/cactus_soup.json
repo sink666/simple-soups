@@ -1,5 +1,5 @@
 {
-  "parent": "simplesoups:recipes/root",
+  "parent": "minecraft:recipes/root",
   "criteria": {
     "has_bowl": {
       "conditions": {
@@ -7,18 +7,6 @@
           {
             "items": [
               "minecraft:bowl"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_bone": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:bone"
             ]
           }
         ]
@@ -59,7 +47,6 @@
   "requirements": [
     [
       "has_bowl",
-      "has_bone",
       "has_cactus",
       "has_cactus_soup",
       "has_the_recipe"
@@ -67,8 +54,7 @@
   ],
   "rewards": {
     "recipes": [
-      "simplesoups:cactus_soup",
-      "simplesoups:bone_cactus_soup"
+      "simplesoups:cactus_soup"
     ]
   }
 }

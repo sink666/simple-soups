@@ -1,6 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "food",
+  "category": "misc",
+  "group": "cactus_soup",
   "ingredients": [
     {
       "item": "minecraft:cactus"

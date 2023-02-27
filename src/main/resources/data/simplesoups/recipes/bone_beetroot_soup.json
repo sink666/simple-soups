@@ -1,6 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "food",
+  "category": "misc",
+  "group": "beetroot_soup",
   "ingredients": [
     {
       "item": "minecraft:bone"

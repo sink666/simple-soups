@@ -1,18 +1,18 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "food",
+  "group": "potato_soup",
   "ingredients": [
     {
       "item": "minecraft:bone"
     },
     {
-      "item": "minecraft:cactus"
+      "item": "minecraft:potato"
     },
     {
       "item": "minecraft:bowl"
     }
   ],
   "result": {
-    "item": "simplesoups:cactus_soup"
+    "item": "simplesoups:potato_soup"
   }
 }
