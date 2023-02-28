@@ -13,24 +13,36 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_potato": {
+    "has_bone": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:potato"
+              "minecraft:bone"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_potato_soup": {
+    "has_brown_mushroom": {
       "conditions": {
         "items": [
           {
             "items": [
-              "simplesoups:potato_soup"
+              "minecraft:brown_mushroom"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mushroom_stew": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mushroom_stew"
             ]
           }
         ]
@@ -39,22 +51,23 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "simplesoups:potato_soup"
+        "recipe": "simplesoups:mushroom_stew_from_bone"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
+      "has_mushroom_stew",
       "has_bowl",
-      "has_potato",
-      "has_potato_soup",
+      "has_bone",
+      "has_brown_mushroom",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "simplesoups:potato_soup"
+      "simplesoups:mushroom_stew_from_bone"
     ]
   }
 }

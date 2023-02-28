@@ -1,19 +1,19 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "group": "mushroom_stew",
+  "group": "carrot_soup",
   "ingredients": [
     {
       "item": "minecraft:bone"
     },
     {
-      "item": "minecraft:red_mushroom"
+      "item": "minecraft:carrot"
     },
     {
       "item": "minecraft:bowl"
     }
   ],
   "result": {
-    "item": "minecraft:mushroom_stew"
+    "item": "simplesoups:carrot_soup"
   }
 }

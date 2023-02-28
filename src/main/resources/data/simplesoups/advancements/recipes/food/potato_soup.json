@@ -18,31 +18,31 @@
         "items": [
           {
             "items": [
-              "minecraft:cactus"
+              "minecraft:bone"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_cactus": {
+    "has_potato": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:cactus"
+              "minecraft:potato"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_cactus_soup": {
+    "has_potato_soup": {
       "conditions": {
         "items": [
           {
             "items": [
-              "simplesoups:cactus_soup"
+              "simplesoups:potato_soup"
             ]
           }
         ]
@@ -51,7 +51,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "simplesoups:bone_cactus_soup"
+        "recipe": "simplesoups:potato_soup"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -60,14 +60,15 @@
     [
       "has_bowl",
       "has_bone",
-      "has_cactus",
-      "has_cactus_soup",
+      "has_potato",
+      "has_potato_soup",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "simplesoups:bone_cactus_soup"
+      "simplesoups:potato_soup",
+      "simplesoups:potato_soup_from_bone"
     ]
   }
 }

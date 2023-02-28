@@ -13,21 +13,9 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_bone": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:bone"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:beetroot_soup"
+        "recipe": "simplesoups:beetroot_soup_from_bone"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -35,14 +23,12 @@
   "requirements": [
     [
       "has_beetroot",
-      "has_bone",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "simplesoups:bone_beetroot_soup",
-      "simplesoups:simple_beetroot_soup"
+      "simplesoups:beetroot_soup_from_bone"
     ]
   }
 }
